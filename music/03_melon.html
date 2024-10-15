@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Music Site</title>
+  <link rel="stylesheet" href="./03_melon.css">  
+</head>
+<body>
+  <!-- 맨 위 부분 -->
+  <div class="top">
+    <div class="top-links">
+      <a href="#">이용권 구매</a>
+      <a href="#">공지사항</a>
+      <a href="#">이벤트</a>
+      <a href="http://192.168.40.5:5500/music/hompage.html">로그인</a>
+    </div>
+  </div>
+
+  <!-- 헤더 -->
+  <header>
+    <div class="header-container">
+      <div class="logo-search">
+        <div class="logo">Music</div>
+        <input type="text" class="search-bar" placeholder="노래 또는 아티스트 검색">
+        <!-- 급상승 -->
+        <div class="ranking">
+          <h2>급상승</h2>
+          <div class="ranking-list">
+            <div class="ranking-text">1. 이영지</div>
+            <div class="ranking-text">2. 손태진</div>
+            <div class="ranking-text">3. 샤이니</div>
+            <div class="ranking-text">4. DAY6</div>
+            <div class="ranking-text">5. aespa</div>
+            <div class="ranking-text">6. 2NE1</div>
+            <div class="ranking-text">7. 아일릿</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 하단 -->
+    <div class="main-list">
+      <ul>
+        <li><a href="#">음악차트</a></li>
+        <li><a href="#">최신음악</a></li>
+        <li><a href="#">장르음악</a></li>
+        <li><a href="#">음악DJ</a></li>
+        <li><a href="#">음악tv</a></li>
+        <li><a href="#">앨범</a></li>
+        <li><a href="#">어학</a></li>
+        <li><a href="#">음악웨이브</a></li>
+        <li><a href="#">아티스트</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <br>
+  <hr><hr>
+
+  <!-- 메인  -->
+  <main>
+    <!-- 슬라이드 애니메이션 구현  -->
+    <section class="slider">
+      <div class="slides">
+        <div class="slide"><img src="./resource/imeage/KakaoTalk_20241006_132238269.jpg" alt="Album 1"></div>
+        <div class="slide"><img src="./resource/imeage/KakaoTalk_20241006_132238269_01.jpg" alt="Album 2"></div>
+        <div class="slide"><img src="./resource/imeage/KakaoTalk_20241006_132238269_02.jpg" alt="Album 3"></div>
+        <div class="slide"><img src="./resource/imeage/KakaoTalk_20241006_132238269_03.jpg" alt="Album 4"></div>
+        <div class="slide"><img src="./resource/imeage/KakaoTalk_20241006_132238269_04.jpg" alt="Album 5"></div>
+        <div class="slide"><img src="./resource/imeage/KakaoTalk_20241006_132238269_06.jpg" alt="Album 6"></div>
+        <div class="slide"><img src="./resource/imeage/KakaoTalk_20241006_132238269_05.jpg" alt="Album 7"></div>
+      </div>
+    </section>
+  </main>
+
+  <main class="chart-all">
+    <!-- 음악순위 -->
+    <section class="charts">
+      <h2>음악 순위 📊</h2>
+      <div class="chart-grid">
+        <div class="chart-item">1. HAPPY - DAY6 </div>
+        <div class="chart-item">2. 내 이름 맑음 - QWER </div>
+        <div class="chart-item">3. Welcome to the show - DAY6 </div>
+        <div class="chart-item">4. Supernova - aespa </div>
+        <div class="chart-item">5. 클락션 - (여자)아이들 </div>
+        <div class="chart-item">6. 소나기 - 이클립스 </div>
+        <div class="chart-item">7. Hot Sweet - NewJeans </div>
+        <div class="chart-item">8. 천상연 - 이창섭 </div>
+        <div class="chart-item">9. WAY 4 LUV - PLAVE </div>
+        <div class="chart-item">10. LOVE TUNE - FIFTY FIFTY </div>
+      </div>
+    </section>
+  
+    <!-- 최신 앨범 -->
+    <section class="latest-albums">
+      <h2>최신 앨범 🎵</h2>
+      <div class="album-grid">
+        <a href="" class="album-item">
+          <img src="./resource/imeage/KakaoTalk_20241006_141206740.jpg" alt="Album 1">
+          <p>엄마친구아들 OST</p>
+          <p class="name">정해인</p>
+        </a>
+        <a href="" class="album-item">
+            <img src="./resource/imeage/KakaoTalk_20241006_141206740_01.jpg" alt="Album 2">
+            <p>Drive Away3</p>
+            <p class="name">라디</p>
+        </a>
+        <a href="" class="album-item">
+            <img src="./resource/imeage/KakaoTalk_20241006_141206740_02.jpg" alt="Album 3">
+            <p>Night on eartj</p>
+            <p class="name">제휘</p>
+        </a>
+        <a href="" class="album-item">
+            <img src="./resource/imeage/KakaoTalk_20241006_141206740_03.jpg" alt="Album 3">
+            <p>안아줘</p>
+            <p class="name">유태양</p>
+        </a>
+        <a href="" class="album-item">
+            <img src="./resource/imeage/KakaoTalk_20241006_143355165.jpg" alt="Album 3">
+            <p>안녕히</p>
+            <p class="name">강아루</p>
+        </a>
+        <a href="" class="album-item">
+            <img src="./resource/imeage/KakaoTalk_20241006_143355165_01.jpg" alt="Album 3">
+            <p>직진할래요</p>
+            <p class="name">원더 총각</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <br><br><br><br><br>
+
+  <footer>
+    <p>2024 Music. (주)예지엔터테인먼트</p>
+  </footer>
+
+  <script>
+    // 알림 메시지
+    window.addEventListener('load', function() {
+      alert('환영합니다! 음악 사이트에 오신 것을 환영합니다!');
+    });
+
+       // 음악 차트 항목을 클릭하면 색상 변경 (click 이벤트 사용)
+    const chartItems = document.querySelectorAll('.chart-item');
+    chartItems.forEach(function(item) {
+      item.addEventListener('click', function() {
+        if (item.style.backgroundColor === 'rgb(255, 111, 161)') { 
+          item.style.backgroundColor = '#f4f4f4';
+          item.style.color = 'black';
+        } else { 
+          item.style.backgroundColor = '#ff6fa1';
+          item.style.color = 'white';
+        }
+      });
+    });
+
+  </script>
+</body>
+</html>

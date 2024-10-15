@@ -1,0 +1,96 @@
+#language{
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+h1{
+ color: #ff6fa1;
+ font-size: 50px;
+ font-family: 고딕체;
+ text-align: center;
+}
+
+.login{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-id-pwd{
+    margin-bottom: 15px;
+    width: 380px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-else {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #ff6fa1;
+    color: white;
+}
+
+button:not([type="submit"]) {
+    background-color: #f0f0f0;
+}
+
+.checkbox{
+    display: inline-flex;
+    align-items: center;
+}
+label{
+    font-size: small;
+    margin-right: 10px; 
+    white-space: nowrap;
+}
+
+#find{
+    background-color: white;
+    font-size: small;
+    text-align: center;
+    margin-top: 0 10px;
+    height: 30px;
+}
+
+.button-two{
+    display: flex;
+    justify-content: center; 
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 수직 가운데 정렬 */
+    margin: 20px 0; /* 위아래 여백 (선택 사항) */
+}
+
+.banner img{
+    width: 500px;
+    height: 100px;
+}
+
+ 
